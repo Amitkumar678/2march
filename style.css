@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 100px;
+    margin: 10px;
+    height: 100px;
+    background-color: red;
+
+}
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+    .container{
+        display: block;
+        background-color: yellow;
+        border: 4px solid blue;
+    }
+}
